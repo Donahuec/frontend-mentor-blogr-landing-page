@@ -1,0 +1,98 @@
+:root {
+  --bgGradientStart: hsl(13, 100%, 72%);
+  --bgGradientEnd: hsl(353, 100%, 62%);
+
+  --coGradientStart: hsl(237, 17%, 21%);
+  --coGradientEnd: hsl(237, 23%, 32%);
+
+  --lightRed: hsl(356, 100%, 66%);
+  --veryLightRed: hsl(355, 100%, 74%);
+  --veryDarkBlue: hsl(208, 49%, 24%);
+
+  --white: hsl(0, 0%, 100%);
+  --grayishBlue: hsl(240, 2%, 79%);
+  --veryDarkGrayishBlue: hsl(207, 13%, 34%);
+  --veryDarkBlackBlue: hsl(240, 10%, 16%);
+
+  --fontBody: 1rem;
+  --fontWeight: 400;
+  --fontFamily: "";
+
+  --heroBackground: url("./images/bg-pattern-intro-desktop.svg");
+}
+
+/* @media only screen and (min-width: 992px) {
+  :root {
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --heroBackground: url("./images/bg-pattern-intro-mobile.svg");
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: var(--fontFamily);
+  font-size: var(--fontBody);
+  font-weight: var(--fontWeight);
+  font-optical-sizing: auto;
+  letter-spacing: 0px;
+  color: var(--veryDarkGrayishBlue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+header {
+  background-image: linear-gradient(
+    var(--bgGradientStart),
+    var(--bgGradientEnd)
+  );
+  color: var(--white);
+  isolation: isolate;
+}
+
+footer {
+  background-color: var(--veryDarkBlackBlue);
+  color: var(--grayishBlue);
+}
+
+section.call-out {
+  isolation: isolate;
+  background-image: linear-gradient(
+    var(--coGradientStart),
+    var(--coGradientEnd)
+  );
+  color: var(--white);
+}
