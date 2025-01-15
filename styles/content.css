@@ -45,12 +45,18 @@ section.light-section {
     right: 0;
     flex: 1;
   }
+  .content-block {
+    margin-inline-end: clamp(32px, 10%, 165px);
+  }
 }
 
 .content.image-right {
   flex-direction: row-reverse;
   .image-wrapper img {
     left: 0;
+  }
+  .content-block {
+    margin-inline-start: clamp(32px, 10%, 165px);
   }
 }
 
@@ -59,7 +65,6 @@ section.light-section {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  margin-inline: clamp(32px, 10%, 165px);
 }
 
 .text-block {
@@ -83,6 +88,9 @@ section.light-section {
   }
   .mobile-image {
     display: block;
+  }
+  .content {
+    margin-bottom: 0;
   }
   .content-block {
     text-align: center;

@@ -1,5 +1,5 @@
 <svg
-                width="328"
+                width="368"
                 height="328"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -43,7 +43,7 @@
                     id="e" />
                 </defs>
                 <g fill="none" fill-rule="evenodd">
-                  <g transform="translate(1 0)">
+                  <g transform="translate(21 0)">
                     <rect
                       fill="#2D2E40"
                       opacity=".08"
@@ -72,7 +72,7 @@
                       height="325"
                       rx="162.5" />
                   </g>
-                  <g filter="url(#a)" transform="translate(0 68)">
+                  <g filter="url(#a)" transform="translate(20 68)">
                     <rect
                       fill="#535353"
                       fill-rule="nonzero"
