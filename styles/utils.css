@@ -9,6 +9,10 @@ img {
   width: 100%;
 }
 
+svg {
+  display: block;
+}
+
 body,
 html {
   height: 100%;
