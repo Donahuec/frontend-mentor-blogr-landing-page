@@ -1,0 +1,22 @@
+button {
+  padding: 16px;
+  border-radius: 28px;
+  border: none;
+  font-family: var(--ubuntu);
+  font-weight: var(--ubuntuBold);
+  color: var(--white);
+  background-color: transparent;
+  min-width: fit-content;
+}
+
+button.btn-clear {
+}
+
+button.btn-clear.outline {
+  border: 1px solid currentColor;
+}
+
+button.btn-fill {
+  background-color: var(--white);
+  color: var(--lightRed);
+}

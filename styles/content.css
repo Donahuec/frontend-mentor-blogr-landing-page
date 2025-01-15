@@ -1,0 +1,8 @@
+section.call-out {
+  isolation: isolate;
+  background-image: linear-gradient(
+    var(--coGradientStart),
+    var(--coGradientEnd)
+  );
+  color: var(--white);
+}
